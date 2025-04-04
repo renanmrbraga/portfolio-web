@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+
+    <!-- Select OS theme -->
+    <script>
+      (function() {
+        const storageKey = "vite-ui-theme";
+        const savedTheme = localStorage.getItem(storageKey);
+        const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        const theme = savedTheme || (prefersDark ? "dark" : "light");
+    
+        document.documentElement.classList.remove("light", "dark");
+        document.documentElement.classList.add(theme);
+      })();
+    </script>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Renan Braga — Dados. Automação. Impacto.</title>
+    <meta name="description" content="Sou um resolvedor de problemas. Uso dados, IA e automação para criar soluções que poupam tempo, reduzem custos e ampliam impacto." />
+    <meta name="author" content="Renan Braga" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Renan Braga — Dados. Automação. Impacto." />
+    <meta property="og:description" content="Portfólio de Renan Braga: soluções reais com IA e automação para projetos de impacto." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://renanbraga.dev" />
+    <meta property="og:image" content="https://renanbraga.dev/og-image.png" />
+    <meta property="og:site_name" content="Renan Braga" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Renan Braga — Dados. Automação. Impacto." />
+    <meta name="twitter:description" content="Portfólio de Renan Braga: soluções reais com IA e automação para projetos de impacto." />
+    <meta name="twitter:image" content="https://renanbraga.dev/og-image.png" />
+    <meta name="twitter:creator" content="@renanmrbraga" />
+
+    <!-- Favicon (opcional) -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
