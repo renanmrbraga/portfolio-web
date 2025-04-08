@@ -103,7 +103,7 @@ const translations = {
     // How It Works component
     "howitworks.title": "Como o assistente funciona:",
     "howitworks.step1.title": "Você faz uma pergunta",
-    "howitworks.step1.desc": "\"Qual a população e número de escolas em Maringá?\"",
+    "howitworks.step1.desc": "\"Qual o número de escolas em Maringá?\"",
     "howitworks.step2.title": "O sistema detecta a cidade e tema",
     "howitworks.step2.desc": "Identificação inteligente de entidades e contexto",
     "howitworks.step3.title": "Acessa dados confiáveis",
@@ -254,7 +254,7 @@ const translations = {
     // How It Works component
     "howitworks.title": "How the assistant works:",
     "howitworks.step1.title": "You ask a question",
-    "howitworks.step1.desc": "\"What's the population and number of schools in Maringá?\"",
+    "howitworks.step1.desc": "\"What's the number of schools in Maringá?\"",
     "howitworks.step2.title": "The system detects the city and topic",
     "howitworks.step2.desc": "Intelligent entity and context identification",
     "howitworks.step3.title": "Accesses reliable data",
