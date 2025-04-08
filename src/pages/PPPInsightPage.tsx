@@ -92,11 +92,9 @@ const PPPInsightPage = () => {
             <ul className="space-y-2">
               <TechItem>Python + LangChain</TechItem>
               <TechItem>Groq LLM (Gemma 2B/9B)</TechItem>
-              <TechItem>Streamlit + PostgreSQL</TechItem>
-              <TechItem>Embeddings com HuggingFace</TechItem>
-              <TechItem>Docker + NGINX</TechItem>
-              <TechItem>Scraping + APIs oficiais (IBGE, INEP, FNDE)</TechItem>
-              <TechItem>Frontend React (em evolução)</TechItem>
+              <TechItem>PostgreSQL + Scraping + APIs oficiais (IBGE, INEP, FNDE)</TechItem>
+              <TechItem>Pinecone + Cohere Embeddings</TechItem>
+              <TechItem>Frontend React</TechItem>
             </ul>
           </div>
         </div>
