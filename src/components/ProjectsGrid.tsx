@@ -20,14 +20,6 @@ const ProjectsGrid = () => {
 
   const projects: Project[] = [
     {
-      id: "ppp-insight",
-      title: "PPP Insight",
-      description: t("projects.pppInsightGrid.desc"),
-      tags: ["Python", "PostgreSQL", "LangChain", "Streamlit"],
-      githubUrl: "https://github.com/renanmrbraga/chatbot-llm",
-      detailsPath: "/projects/ppp-insight",
-    },
-    {
       id: "portfolio-website",
       title: "Portfólio Web",
       description: t("projects.PortfolioWeb.desc"),
