@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useRef, useState } from "react";
+import HCaptcha from "@hcaptcha/react-hcaptcha";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -8,6 +9,8 @@ import { useLanguage } from "@/components/LanguageProvider";
 
 const Contact = () => {
   const { t } = useLanguage();
+  const captchaRef = useRef(null);
+  const [captchaToken, setCaptchaToken] = useState("");
 
   return (
     <div className="bg-background text-foreground min-h-screen theme-transition">
@@ -93,10 +96,19 @@ const Contact = () => {
             <h2 className="text-2xl font-bold mb-6">{t("contact.form.title")}</h2>
 
             <form
-              action="https://formspree.io/f/mldjpjen"
+              action={import.meta.env.VITE_FORMSPREE_URL}
               method="POST"
               className="space-y-4"
+              onSubmit={(e) => {
+                if (!captchaToken) {
+                  e.preventDefault();
+                  alert("Por favor, resolva o CAPTCHA antes de enviar.");
+                }
+              }}
             >
+              {/* Honeypot */}
+              <input type="text" name="_gotcha" style={{ display: "none" }} tabIndex={-1} />
+
               <div>
                 <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-700 dark:text-gray-300">
                   {t("contact.form.name")}
@@ -138,6 +150,16 @@ const Contact = () => {
                   placeholder={t("contact.form.messagePlaceholder")}
                 ></textarea>
               </div>
+
+              {/* hCaptcha */}
+              <HCaptcha
+                sitekey={import.meta.env.VITE_HCAPTCHA_SITE_KEY}
+                onVerify={setCaptchaToken}
+                ref={captchaRef}
+              />
+
+              {/* Campo oculto para enviar o token ao backend/Formspree */}
+              <input type="hidden" name="h-captcha-response" value={captchaToken} />
 
               <Button type="submit" className="w-full bg-blue-600 hover:bg-blue-700">
                 {t("contact.form.submit")}
