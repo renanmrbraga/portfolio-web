@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useLanguage } from "@/components/LanguageProvider";
+import { motion } from "framer-motion";
 
 type Project = {
   id: string;
@@ -56,7 +57,7 @@ const ProjectsGrid = () => {
 
   return (
     <section className="py-16" id="projects">
-      <div className="w-full max-w-[1800px] px-4 sm:px-6 lg:px-8 mx-auto">
+      <div className="w-full max-w-none px-4 sm:px-6 lg:px-8 mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center dark:text-white text-gray-900">
           {t("projects.title")}
         </h2>
@@ -64,8 +65,15 @@ const ProjectsGrid = () => {
           className="grid gap-8"
           style={{ gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))" }}
         >
-          {projects.map((project) => (
-            <ProjectCard key={project.id} project={project} />
+          {projects.map((project, index) => (
+            <motion.div
+              key={project.id}
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.4, delay: index * 0.1 }}
+            >
+              <ProjectCard project={project} />
+            </motion.div>
           ))}
         </div>
       </div>
