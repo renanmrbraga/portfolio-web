@@ -54,13 +54,29 @@ const PPPInsightPage = () => {
 
             <div className="mt-8 flex flex-wrap gap-4">
               <Button
+                variant="default"
+                size="lg"
+                className="bg-blue-600 text-white hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600"
+                asChild
+              >
+                <a
+                  href="https://chatbot-llm-theta.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <ExternalLink className="mr-2 h-5 w-5" />
+                  {t("projects.viewDemo")}
+                </a>
+              </Button>
+
+              <Button
                 variant="outline"
                 size="lg"
                 className="border-gray-300 dark:border-gray-700"
                 asChild
               >
                 <a
-                  href="https://github.com/renanmrbraga/football-analysis"
+                  href="https://github.com/renanmrbraga/chatbot-llm"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

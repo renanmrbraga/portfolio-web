@@ -27,6 +27,15 @@ const ProjectsGrid = () => {
       githubUrl: "https://github.com/renanmrbraga/portfolio-web",
     },
     {
+      id: "ppp-insight",
+      title: "PPP Insight",
+      description: t("projects.pppInsightGrid.desc"),
+      tags: ["Python", "Streamlit", "Power BI"],
+      demoUrl: "https://chatbot-llm-theta.vercel.app/",
+      githubUrl: "https://github.com/renanmrbraga/chatbot-llm",
+      detailsPath: "/projects/ppp-insight",
+    },
+    {
       id: "football-analysis",
       title: "Football Analysis",
       description: t("projects.FootballAnalysis.desc"),

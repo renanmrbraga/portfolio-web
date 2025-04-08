@@ -139,6 +139,16 @@ const translations = {
     "projects.contribute": "Contribuir no GitHub",
     "projects.viewDemo": "Visitar Demo",
     "projects.viewGithub": "Ver no GitHub",
+    // PPP Insight Page
+    "projects.PPPInsight.title": "PPP Insight",
+    "projects.PPPInsight.subtitle": "Chatbot inteligente que transforma dados públicos brutos em respostas interpretadas para apoiar decisões estratégicas em projetos de PPPs.",
+    "projects.PPPInsight.problem1": "Milhares de gestores públicos precisam tomar decisões baseadas em dados, mas enfrentam uma avalanche de informações descentralizadas e mal estruturadas.",
+    "projects.PPPInsight.problem2": "Planilhas do INEP, tabelas do IBGE e bases do FNDE são técnicas, complexas e pouco acessíveis a quem precisa tomar decisões rápidas. O PPP Insight resolve isso.",
+    "projects.PPPInsight.how1": "Você pergunta (ex: \"Quantas escolas há em São Gonçalo?\")",
+    "projects.PPPInsight.how2": "O sistema detecta automaticamente a cidade e o tema",
+    "projects.PPPInsight.how3": "Busca dados reais no banco (IBGE, INEP, FNDE, etc.)",
+    "projects.PPPInsight.how4": "Gera uma resposta explicativa com uma LLM (Groq + Langchain)",
+    "projects.PPPInsight.how5": "Exibe os dados interpretados com fontes confiáveis",
     // Football Analysis Page
     "projects.FootballAnalysis.title": "Football Analysis",
     "projects.FootballAnalysis.subtitle": "Plataforma pessoal de análise estratégica sobre como investimentos e gestão financeira impactam o desempenho esportivo dos clubes da Série A do Brasileirão nos últimos 10 anos.",
@@ -156,16 +166,6 @@ const translations = {
     "projects.FootballScience.how2": "Criação de base analítica por temporada (em progresso)",
     "projects.FootballScience.how3": "Modelos preditivos e análise de clusters (planejado)",
     "projects.FootballScience.how4": "Dashboards interativos e insights táticos (planejado)",
-    // PPP Insight Page
-    "projects.PPPInsight.title": "PPP Insight",
-    "projects.PPPInsight.subtitle": "Chatbot inteligente que transforma dados públicos brutos em respostas interpretadas para apoiar decisões estratégicas em projetos de PPPs.",
-    "projects.PPPInsight.problem1": "Milhares de gestores públicos precisam tomar decisões baseadas em dados, mas enfrentam uma avalanche de informações descentralizadas e mal estruturadas.",
-    "projects.PPPInsight.problem2": "Planilhas do INEP, tabelas do IBGE e bases do FNDE são técnicas, complexas e pouco acessíveis a quem precisa tomar decisões rápidas. O PPP Insight resolve isso.",
-    "projects.PPPInsight.how1": "Você pergunta (ex: \"Quantas escolas há em São Gonçalo?\")",
-    "projects.PPPInsight.how2": "O sistema detecta automaticamente a cidade e o tema",
-    "projects.PPPInsight.how3": "Busca dados reais no banco (IBGE, INEP, FNDE, etc.)",
-    "projects.PPPInsight.how4": "Gera uma resposta explicativa com uma LLM (Groq + Langchain)",
-    "projects.PPPInsight.how5": "Exibe os dados interpretados com fontes confiáveis",
   },
   en: {
     // Navbar
@@ -290,6 +290,16 @@ const translations = {
     "projects.contribute": "Contribute on GitHub",
     "projects.viewDemo": "Visit Demo",
     "projects.viewGithub": "View on GitHub",
+    // PPP Insight Page
+    "projects.PPPInsight.title": "PPP Insight",
+    "projects.PPPInsight.subtitle": "Intelligent chatbot that transforms raw public data into interpreted answers to support strategic decisions in PPP projects.",
+    "projects.PPPInsight.problem1": "Thousands of public managers need to make data-based decisions but face an avalanche of decentralized and poorly structured information.",
+    "projects.PPPInsight.problem2": "INEP spreadsheets, IBGE tables, and FNDE databases are technical, complex, and inaccessible to those who need to decide quickly. PPP Insight solves this.",
+    "projects.PPPInsight.how1": "You ask (e.g., \"How many schools are there in São Gonçalo?\")",
+    "projects.PPPInsight.how2": "The system automatically detects the city and topic",
+    "projects.PPPInsight.how3": "Fetches real data from the database (IBGE, INEP, FNDE, etc.)",
+    "projects.PPPInsight.how4": "Generates an explanatory answer using an LLM (Groq + Langchain)",
+    "projects.PPPInsight.how5": "Displays interpreted data with reliable sources",
     // Football Analysis Page
     "projects.FootballAnalysis.title": "Football Analysis",
     "projects.FootballAnalysis.subtitle": "Personal strategic analysis platform on how investments and financial management impact the sports performance of Série A clubs in the last 10 years.",
@@ -307,16 +317,6 @@ const translations = {
     "projects.FootballScience.how2": "Creation of analytical database by season (in progress)",
     "projects.FootballScience.how3": "Predictive models and cluster analysis (planned)",
     "projects.FootballScience.how4": "Interactive dashboards and tactical insights (planned)",
-    // PPP Insight Page
-    "projects.PPPInsight.title": "PPP Insight",
-    "projects.PPPInsight.subtitle": "Intelligent chatbot that transforms raw public data into interpreted answers to support strategic decisions in PPP projects.",
-    "projects.PPPInsight.problem1": "Thousands of public managers need to make data-based decisions but face an avalanche of decentralized and poorly structured information.",
-    "projects.PPPInsight.problem2": "INEP spreadsheets, IBGE tables, and FNDE databases are technical, complex, and inaccessible to those who need to decide quickly. PPP Insight solves this.",
-    "projects.PPPInsight.how1": "You ask (e.g., \"How many schools are there in São Gonçalo?\")",
-    "projects.PPPInsight.how2": "The system automatically detects the city and topic",
-    "projects.PPPInsight.how3": "Fetches real data from the database (IBGE, INEP, FNDE, etc.)",
-    "projects.PPPInsight.how4": "Generates an explanatory answer using an LLM (Groq + Langchain)",
-    "projects.PPPInsight.how5": "Displays interpreted data with reliable sources",
   }
 };
 
