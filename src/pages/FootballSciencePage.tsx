@@ -37,18 +37,18 @@ const FootballSciencePage = () => {
           <div className="md:col-span-2">
             <h2 className="text-2xl font-bold mb-4">{t("projects.problem")}</h2>
             <p className="text-gray-700 dark:text-gray-300 mb-6">
-              Clubes tomam decisões com base em intuição ou pressão externa, sem evidências sólidas de performance futura. Isso gera contratações equivocadas, baixa eficiência tática e perda de investimentos.
+              {t("projects.FootballScience.problem1")}
             </p>
             <p className="text-gray-700 dark:text-gray-300 mb-6">
-              Este projeto coleta e estrutura dados detalhados sobre desempenho dos clubes, scouts, técnicos e contexto de jogo, servindo como base para modelagem preditiva e otimização de estratégias esportivas.
+              {t("projects.FootballScience.problem2")}
             </p>
 
             <h2 className="text-2xl font-bold mb-4 mt-10">{t("projects.howitworks")}</h2>
             <ol className="list-decimal list-inside text-gray-700 dark:text-gray-300 space-y-2 mb-6">
-              <li>Scraping massivo e limpeza de dados (em progresso)</li>
-              <li>Criação de base analítica por temporada (em progresso)</li>
-              <li>Modelos preditivos e análise de clusters (planejado)</li>
-              <li>Dashboards interativos e insights táticos (planejado)</li>
+              <li>{t("projects.FootballScience.how1")}</li>
+              <li>{t("projects.FootballScience.how2")}</li>
+              <li>{t("projects.FootballScience.how3")}</li>
+              <li>{t("projects.FootballScience.how4")}</li>
             </ol>
 
             <div className="mt-8 flex flex-wrap gap-4">
