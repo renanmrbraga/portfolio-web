@@ -57,7 +57,7 @@ const ProjectsGrid = () => {
 
   return (
     <section className="py-16" id="projects">
-      <div className="w-full max-w-none px-4 sm:px-6 lg:px-8 mx-auto">
+      <div className="w-full max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center dark:text-white text-gray-900">
           {t("projects.title")}
         </h2>
