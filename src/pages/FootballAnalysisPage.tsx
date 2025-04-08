@@ -37,17 +37,17 @@ const FootballAnalysisPage = () => {
           <div className="md:col-span-2">
             <h2 className="text-2xl font-bold mb-4">{t("projects.problem")}</h2>
             <p className="text-gray-700 dark:text-gray-300 mb-6">
-              {t("footballanalysis.problem1")}
+              {t("projects.FootballAnalysis.problem1")}
             </p>
             <p className="text-gray-700 dark:text-gray-300 mb-6">
-              {t("footballanalysis.problem2")}
+              {t("projects.FootballAnalysis.problem2")}
             </p>
 
             <h2 className="text-2xl font-bold mb-4 mt-10">{t("projects.howitworks")}</h2>
             <ol className="list-decimal list-inside text-gray-700 dark:text-gray-300 space-y-2 mb-6">
-              <li>{t("footballanalysis.step1")}</li>
-              <li>{t("footballanalysis.step2")}</li>
-              <li>{t("footballanalysis.step3")}</li>
+              <li>{t("projects.FootballAnalysis.how1")}</li>
+              <li>{t("projects.FootballAnalysis.how2")}</li>
+              <li>{t("projects.FootballAnalysis.how3")}</li>
             </ol>
 
             <div className="mt-8 flex flex-wrap gap-4">
