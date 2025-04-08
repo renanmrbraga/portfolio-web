@@ -56,11 +56,14 @@ const ProjectsGrid = () => {
 
   return (
     <section className="py-16" id="projects">
-      <div className="w-full max-w-[1600px] px-4 sm:px-6 lg:px-8 mx-auto">
+      <div className="w-full max-w-[1800px] px-4 sm:px-6 lg:px-8 mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center dark:text-white text-gray-900">
           {t("projects.title")}
         </h2>
-        <div className="grid gap-8 grid-cols-[repeat(auto-fit,minmax(300px,1fr))]">
+        <div
+          className="grid gap-8"
+          style={{ gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))" }}
+        >
           {projects.map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}
