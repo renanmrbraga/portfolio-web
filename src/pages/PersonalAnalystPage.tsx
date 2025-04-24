@@ -6,7 +6,7 @@ import { ExternalLink, Github, ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useLanguage } from "@/components/LanguageProvider";
 
-const FootballAnalysisPage = () => {
+const PersonalAnalystPage = () => {
   const { t } = useLanguage();
 
   return (
@@ -26,10 +26,10 @@ const FootballAnalysisPage = () => {
 
         <div className="mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-blue-600 dark:text-blue-400">
-            Football Analysis
+            Personal Analyst
           </h1>
           <p className="text-xl text-gray-700 dark:text-gray-300 max-w-3xl">
-            {t("projects.FootballAnalysis.desc")}
+            {t("projects.PersonalAnalystGrid.desc")}
           </p>
         </div>
 
@@ -37,27 +37,30 @@ const FootballAnalysisPage = () => {
           <div className="md:col-span-2">
             <h2 className="text-2xl font-bold mb-4">{t("projects.problem")}</h2>
             <p className="text-gray-700 dark:text-gray-300 mb-6">
-              {t("projects.FootballAnalysis.problem1")}
+              {t("problem.desc")}
             </p>
             <p className="text-gray-700 dark:text-gray-300 mb-6">
-              {t("projects.FootballAnalysis.problem2")}
+              {t("problem.solution")}
             </p>
 
             <h2 className="text-2xl font-bold mb-4 mt-10">{t("projects.howitworks")}</h2>
             <ol className="list-decimal list-inside text-gray-700 dark:text-gray-300 space-y-2 mb-6">
-              <li>{t("projects.FootballAnalysis.how1")}</li>
-              <li>{t("projects.FootballAnalysis.how2")}</li>
-              <li>{t("projects.FootballAnalysis.how3")}</li>
+              <li>{t("howitworks.step1.title")} – {t("howitworks.step1.desc")}</li>
+              <li>{t("howitworks.step2.title")} – {t("howitworks.step2.desc")}</li>
+              <li>{t("howitworks.step3.title")} – {t("howitworks.step3.desc")}</li>
+              <li>{t("howitworks.step4.title")} – {t("howitworks.step4.desc")}</li>
+              <li>{t("howitworks.step5.title")} – {t("howitworks.step5.desc")}</li>
             </ol>
 
             <div className="mt-8 flex flex-wrap gap-4">
               <Button
+                variant="default"
                 size="lg"
-                className="bg-blue-600 hover:bg-blue-700 text-white"
+                className="bg-blue-600 text-white hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600"
                 asChild
               >
                 <a
-                  href="https://football-analysis-bra.streamlit.app"
+                  href="https://chatbot-llm-theta.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -65,6 +68,7 @@ const FootballAnalysisPage = () => {
                   {t("projects.viewDemo")}
                 </a>
               </Button>
+
               <Button
                 variant="outline"
                 size="lg"
@@ -72,7 +76,7 @@ const FootballAnalysisPage = () => {
                 asChild
               >
                 <a
-                  href="https://github.com/renanmrbraga/football-analysis"
+                  href="https://github.com/renanmrbraga/chatbot-llm"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -86,14 +90,16 @@ const FootballAnalysisPage = () => {
           <div>
             <h2 className="text-2xl font-bold mb-4">{t("projects.technologies")}</h2>
             <ul className="space-y-2">
-              <TechItem>Python</TechItem>
-              <TechItem>Pandas / Plotly / Streamlit</TechItem>
-              <TechItem>PostgreSQL (planned)</TechItem>
-              <TechItem>Power BI (planned)</TechItem>
+              <TechItem>Python + LangChain</TechItem>
+              <TechItem>Groq LLM (Gemma 2B/9B)</TechItem>
+              <TechItem>PostgreSQL + Scraping + APIs</TechItem>
+              <TechItem>Pinecone + Cohere Embeddings</TechItem>
+              <TechItem>Frontend React</TechItem>
             </ul>
           </div>
         </div>
       </div>
+
       <Footer />
     </div>
   );
@@ -106,4 +112,4 @@ const TechItem = ({ children }: { children: React.ReactNode }) => (
   </li>
 );
 
-export default FootballAnalysisPage;
+export default PersonalAnalystPage;

@@ -48,10 +48,23 @@ const FootballSciencePage = () => {
               <li>{t("projects.FootballScience.how1")}</li>
               <li>{t("projects.FootballScience.how2")}</li>
               <li>{t("projects.FootballScience.how3")}</li>
-              <li>{t("projects.FootballScience.how4")}</li>
             </ol>
 
             <div className="mt-8 flex flex-wrap gap-4">
+              <Button
+                size="lg"
+                className="bg-blue-600 hover:bg-blue-700 text-white"
+                asChild
+              >
+                <a
+                  href="https://football-analysis-bra.streamlit.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <ExternalLink className="mr-2 h-5 w-5" />
+                  {t("projects.viewDemo")}
+                </a>
+              </Button>
               <Button
                 variant="outline"
                 size="lg"
@@ -59,7 +72,7 @@ const FootballSciencePage = () => {
                 asChild
               >
                 <a
-                  href="https://github.com/renanmrbraga/football-analysis"
+                  href="https://github.com/renanmrbraga/football-science"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -74,15 +87,12 @@ const FootballSciencePage = () => {
             <h2 className="text-2xl font-bold mb-4">{t("projects.technologies")}</h2>
             <ul className="space-y-2">
               <TechItem>Python</TechItem>
-              <TechItem>Beautiful Soup / Selenium</TechItem>
-              <TechItem>Pandas / Plotly / Streamlit (planejado)</TechItem>
-              <TechItem>Scikit-learn / TensorFlow / Keras / XGBoost / LightGBM / CatBoost (planejado)</TechItem>
-              <TechItem>PostgreSQL (planejado)</TechItem>
+              <TechItem>Pandas / Streamlit / ECharts </TechItem>
+              <TechItem>PostgreSQL</TechItem>
             </ul>
           </div>
         </div>
       </div>
-
       <Footer />
     </div>
   );

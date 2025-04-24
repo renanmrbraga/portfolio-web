@@ -9,8 +9,7 @@ import { LanguageProvider } from "@/components/LanguageProvider";
 
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
-import PPPInsightPage from "./pages/PPPInsightPage";
-import FootballAnalysisPage from "./pages/FootballAnalysisPage";
+import PersonalAnalystPage from "./pages/PersonalAnalystPage";
 import FootballSciencePage from "./pages/FootballSciencePage";
 import Contact from "./pages/Contact";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
@@ -29,8 +28,7 @@ const App = () => (
             <Routes>
               <Route path="/" element={<Index />} />
               <Route path="/contact" element={<Contact />} />
-              <Route path="/projects/ppp-insight" element={<PPPInsightPage />} />
-              <Route path="/projects/football-analysis" element={<FootballAnalysisPage />} />
+              <Route path="/projects/personal-analyst" element={<PersonalAnalystPage />} />
               <Route path="/projects/football-science" element={<FootballSciencePage />} />
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
               <Route path="/terms-of-use" element={<TermsOfUse />} />
