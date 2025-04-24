@@ -57,7 +57,7 @@ const FootballSciencePage = () => {
                 asChild
               >
                 <a
-                  href="https://football-analysis-bra.streamlit.app"
+                  href="https://football-science.onrender.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

@@ -41,7 +41,7 @@ const ProjectsGrid = () => {
       title: "Football Science",
       description: t("projects.FootballScience.desc"),
       tags: ["Python", "Beautiful Soup", "Selenium", "Streamlit", "ECharts"],
-      demoUrl: "https://football-analysis-bra.streamlit.app/",
+      demoUrl: "https://football-science.onrender.com/",
       githubUrl: "https://github.com/renanmrbraga/football-science",
       detailsPath: "/projects/football-science",
     },
