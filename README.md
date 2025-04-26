@@ -1,5 +1,5 @@
 
-# Portfolio Web - Renan Braga
+# Portfolio Web
 
 ## 📌 Sobre o projeto
 
