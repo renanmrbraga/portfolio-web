@@ -9,7 +9,7 @@ import { LanguageProvider } from "@/components/LanguageProvider";
 
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
-import PersonalAnalystPage from "./pages/PersonalAnalystPage";
+import ProfessionalAnalystPage from "./pages/ProfessionalAnalystPage";
 import FootballSciencePage from "./pages/FootballSciencePage";
 import Contact from "./pages/Contact";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
@@ -28,7 +28,7 @@ const App = () => (
             <Routes>
               <Route path="/" element={<Index />} />
               <Route path="/contact" element={<Contact />} />
-              <Route path="/projects/personal-analyst" element={<PersonalAnalystPage />} />
+              <Route path="/projects/professional-analyst" element={<ProfessionalAnalystPage />} />
               <Route path="/projects/football-science" element={<FootballSciencePage />} />
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
               <Route path="/terms-of-use" element={<TermsOfUse />} />

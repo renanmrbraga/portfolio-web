@@ -6,7 +6,7 @@ import { ExternalLink, Github, ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useLanguage } from "@/components/LanguageProvider";
 
-const PersonalAnalystPage = () => {
+const ProfessionalAnalystPage = () => {
   const { t } = useLanguage();
 
   return (
@@ -26,10 +26,10 @@ const PersonalAnalystPage = () => {
 
         <div className="mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-blue-600 dark:text-blue-400">
-            Personal Analyst
+            Professional Analyst
           </h1>
           <p className="text-xl text-gray-700 dark:text-gray-300 max-w-3xl">
-            {t("projects.PersonalAnalystGrid.desc")}
+            {t("projects.ProfessionalAnalystGrid.desc")}
           </p>
         </div>
 
@@ -53,21 +53,6 @@ const PersonalAnalystPage = () => {
             </ol>
 
             <div className="mt-8 flex flex-wrap gap-4">
-              <Button
-                variant="default"
-                size="lg"
-                className="bg-blue-600 text-white hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600"
-                asChild
-              >
-                <a
-                  href="https://chatbot-llm-theta.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <ExternalLink className="mr-2 h-5 w-5" />
-                  {t("projects.viewDemo")}
-                </a>
-              </Button>
 
               <Button
                 variant="outline"
@@ -112,4 +97,4 @@ const TechItem = ({ children }: { children: React.ReactNode }) => (
   </li>
 );
 
-export default PersonalAnalystPage;
+export default ProfessionalAnalystPage;

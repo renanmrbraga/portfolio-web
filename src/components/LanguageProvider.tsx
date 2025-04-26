@@ -99,7 +99,7 @@ const translations = {
     // Problem component
     "problem.quote": "\"Tecnocracia não é o problema, dados brutos são.\"",
     "problem.desc": "Gestores públicos e privados enfrentam um mar de dados descentralizados e mal documentados. Construir projetos estruturados com base em dados exige tempo, técnica e integração.",
-    "problem.solution": "O Personal Analyst resolve isso.",
+    "problem.solution": "O Professional Analyst resolve isso.",
     // How It Works component
     "howitworks.title": "Como o assistente funciona:",
     "howitworks.step1.title": "Você faz uma pergunta",
@@ -126,7 +126,7 @@ const translations = {
     "projects.title": "Meus Projetos",
     "projects.viewDetails": "Ver detalhes",
     "projects.PortfolioWeb.desc": "Este site de portfólio desenvolvido com React, Vite e Tailwind CSS.",
-    "projects.PersonalAnalystGrid.desc": "Um assistente de IA (LLM) que analisa dados confiáveis de banco de dados, relacionais e vetoriais.",
+    "projects.ProfessionalAnalystGrid.desc": "Um assistente de IA (LLM) que analisa dados confiáveis de banco de dados, relacionais e vetoriais.",
     "projects.FootballScience.desc": "Análise de dados focada em entender a relação entre investimentos financeiros, dívidas e sucesso esportivo nos clubes da Série A.",
     // Project pages common
     "projects.back": "Voltar para a Home",
@@ -138,24 +138,24 @@ const translations = {
     "projects.contribute": "Contribuir no GitHub",
     "projects.viewDemo": "Visitar Demo",
     "projects.viewGithub": "Ver no GitHub",
-    // Personal Analyst Page
-    "projects.PersonalAnalyst.title": "Personal Analyst",
-    "projects.PersonalAnalyst.subtitle": "Chatbot inteligente que transforma dados em respostas interpretadas para apoiar decisões estratégicas em projetos.",
-    "projects.PersonalAnalyst.problem1": "Milhares de gestores precisam tomar decisões baseadas em dados, mas enfrentam uma avalanche de informações descentralizadas e mal estruturadas.",
-    "projects.PersonalAnalyst.problem2": "Planilhas complexas e pouco acessíveis a quem precisa tomar decisões rápidas. O Personal Analyst resolve isso.",
-    "projects.PersonalAnalyst.how1": "Você pergunta (ex: \"Quantas escolas há em São Gonçalo?\")",
-    "projects.PersonalAnalyst.how2": "O sistema detecta automaticamente a cidade e o tema",
-    "projects.PersonalAnalyst.how3": "Busca dados confiáveis no banco de dados e outras fontes confiáveis.",
-    "projects.PersonalAnalyst.how4": "Gera uma resposta explicativa com uma LLM (Groq + Langchain)",
-    "projects.PersonalAnalyst.how5": "Exibe os dados interpretados com fontes confiáveis",
+    // Professional Analyst Page
+    "projects.ProfessionalAnalyst.title": "Analista Profissional",
+    "projects.ProfessionalAnalyst.subtitle": "Chatbot inteligente que transforma dados em respostas interpretadas para apoiar decisões estratégicas em projetos.",
+    "projects.ProfessionalAnalyst.problem1": "Milhares de gestores precisam tomar decisões baseadas em dados, mas enfrentam uma avalanche de informações descentralizadas e mal estruturadas.",
+    "projects.ProfessionalAnalyst.problem2": "Planilhas complexas e pouco acessíveis a quem precisa tomar decisões rápidas. O Professional Analyst resolve isso.",
+    "projects.ProfessionalAnalyst.how1": "Você pergunta (ex: \"Quantas escolas há em São Gonçalo?\")",
+    "projects.ProfessionalAnalyst.how2": "O sistema detecta automaticamente a cidade e o tema",
+    "projects.ProfessionalAnalyst.how3": "Busca dados confiáveis no banco de dados e outras fontes confiáveis.",
+    "projects.ProfessionalAnalyst.how4": "Gera uma resposta explicativa com uma LLM (Groq + Langchain)",
+    "projects.ProfessionalAnalyst.how5": "Exibe os dados interpretados com fontes confiáveis",
     // Football Science Page
     "projects.FootballScience.title": "Football Science",
-    "projects.FootballScience.subtitle": "Plataforma pessoal de análise estratégica sobre como investimentos e gestão financeira impactam o desempenho esportivo dos clubes da Série A do Brasileirão nos últimos 10 anos.",
+    "projects.FootballScience.subtitle": "Plataforma profissional de análise estratégica sobre como investimentos e gestão financeira impactam o desempenho esportivo dos clubes da Série A do Brasileirão nos últimos 10 anos.",
     "projects.FootballScience.problem1": "Clubes de futebol enfrentam dificuldades para equilibrar performance esportiva e saúde financeira. Muitos gastam alto com retorno técnico limitado.",
     "projects.FootballScience.problem2": "Este projeto analisa indicadores financeiros, dívidas, contratações e resultados em campo para revelar padrões e auxiliar uma gestão mais eficiente e estratégica.",
     "projects.FootballScience.how1": "Coleta de dados",
     "projects.FootballScience.how2": "Limpeza e padronização dos dados com Python",
-    "projects.FootballScience.how3": "Dashboards dinâmicos com Streamlit, Plotly e Power BI",
+    "projects.FootballScience.how3": "Dashboards dinâmicos com Streamlit e ECharts",
   },
   en: {
     // Navbar
@@ -205,7 +205,7 @@ const translations = {
     "privacy.section2.item3": "Analyze how users interact with our website",
     "privacy.section2.item4": "Protect against fraudulent or abusive activities",
     "privacy.section3": "3. Information Sharing",
-    "privacy.section3.desc": "We do not sell your personal information. We may share information in limited circumstances:",
+    "privacy.section3.desc": "We do not sell your professional information. We may share information in limited circumstances:",
     "privacy.section3.item1": "With service providers who assist us in operating the website",
     "privacy.section3.item2": "To comply with legal obligations",
     "privacy.section3.item3": "To protect rights, property, or safety",
@@ -240,7 +240,7 @@ const translations = {
     // Problem component
     "problem.quote": "\"Technocracy isn't the problem, raw data is.\"",
     "problem.desc": "Public and private managers face a sea of decentralized and poorly documented data. Building structured projects based on data requires time, technique, and integration.",
-    "problem.solution": "Personal Analyst solves this.",
+    "problem.solution": "Professional Analyst solves this.",
     // How It Works component
     "howitworks.title": "How the assistant works:",
     "howitworks.step1.title": "You ask a question",
@@ -248,7 +248,7 @@ const translations = {
     "howitworks.step2.title": "The system detects the city and topic",
     "howitworks.step2.desc": "Intelligent entity and context identification",
     "howitworks.step3.title": "Accesses reliable data",
-    "howitworks.step3.desc": "Personal databases and other trusted sources",
+    "howitworks.step3.desc": "Professional databases and other trusted sources",
     "howitworks.step4.title": "Uses an LLM to interpret",
     "howitworks.step4.desc": "Processing and contextualizing relevant data",
     "howitworks.step5.title": "You receive a clear answer",
@@ -266,7 +266,7 @@ const translations = {
     // ProjectsGrid
     "projects.title": "My Projects",
     "projects.viewDetails": "View details",
-    "projects.PersonalAnalystGrid.desc": "An AI (LLM) assistant that interprets data from relational and vector database.",
+    "projects.ProfessionalAnalystGrid.desc": "An AI (LLM) assistant that interprets data from relational and vector database.",
     "projects.PortfolioWeb.desc": "This portfolio website developed with React, Vite, and Tailwind CSS.",
     "projects.FootballScience.desc": "Data science focused on understanding the relationship between financial investments, debt, and sports success in Série A football clubs.",
     // Project pages common
@@ -279,24 +279,24 @@ const translations = {
     "projects.contribute": "Contribute on GitHub",
     "projects.viewDemo": "Visit Demo",
     "projects.viewGithub": "View on GitHub",
-    // Personal Analyst Insight Page
-    "projects.PersonalAnalyst.title": "Personal Analyst",
-    "projects.PersonalAnalyst.subtitle": "Intelligent chatbot that transforms data into interpreted answers to support strategic decisions.",
-    "projects.PersonalAnalyst.problem1": "Thousands of managers need to make data-based decisions but face an avalanche of decentralized and poorly structured information.",
-    "projects.PersonalAnalyst.problem2": "Spreadsheets and tables are technical, complex, and inaccessible to those who need to decide quickly. Personal Analyst solves this.",
-    "projects.PersonalAnalyst.how1": "You ask (e.g., \"How many schools are there in São Gonçalo?\")",
-    "projects.PersonalAnalyst.how2": "The system automatically detects the city and topic",
-    "projects.PersonalAnalyst.how3": "Fetches real data from the database",
-    "projects.PersonalAnalyst.how4": "Generates an explanatory answer using an LLM (Groq + Langchain)",
-    "projects.PersonalAnalyst.how5": "Displays interpreted data with reliable sources",
+    // Professional Analyst Insight Page
+    "projects.ProfessionalAnalyst.title": "Professional Analyst",
+    "projects.ProfessionalAnalyst.subtitle": "Intelligent chatbot that transforms data into interpreted answers to support strategic decisions.",
+    "projects.ProfessionalAnalyst.problem1": "Thousands of managers need to make data-based decisions but face an avalanche of decentralized and poorly structured information.",
+    "projects.ProfessionalAnalyst.problem2": "Spreadsheets and tables are technical, complex, and inaccessible to those who need to decide quickly. Professional Analyst solves this.",
+    "projects.ProfessionalAnalyst.how1": "You ask (e.g., \"How many schools are there in São Gonçalo?\")",
+    "projects.ProfessionalAnalyst.how2": "The system automatically detects the city and topic",
+    "projects.ProfessionalAnalyst.how3": "Fetches real data from the database",
+    "projects.ProfessionalAnalyst.how4": "Generates an explanatory answer using an LLM (Groq + Langchain)",
+    "projects.ProfessionalAnalyst.how5": "Displays interpreted data with reliable sources",
     // Football Science Page
     "projects.FootballScience.title": "Football Science",
-    "projects.FootballScience.subtitle": "Personal strategic analysis platform on how investments and financial management impact the sports performance of Série A clubs in the last 10 years.",
+    "projects.FootballScience.subtitle": "Professional strategic analysis platform on how investments and financial management impact the sports performance of Série A clubs in the last 10 years.",
     "projects.FootballScience.problem1": "Football clubs struggle to balance sports performance and financial health. Many spend heavily with limited technical returns.",
     "projects.FootballScience.problem2": "This project analyzes financial indicators, debts, signings, and match results to uncover patterns and support more strategic management.",
     "projects.FootballScience.how1": "Data collection",
     "projects.FootballScience.how2": "Data cleaning and standardization with Python",
-    "projects.FootballScience.how3": "Dynamic dashboards with Streamlit, Plotly, and Power BI",
+    "projects.FootballScience.how3": "Dynamic dashboards with Streamlit and ECharts",
   }
 };
 
