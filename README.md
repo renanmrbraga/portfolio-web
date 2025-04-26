@@ -21,11 +21,7 @@ Este é o site pessoal e portfólio profissional de Renan Braga, destacando suas
 
 Veja o projeto funcionando ao vivo aqui:
 
-[🔗 renanbraga.dev](https://renanbraga.dev)
-
-## 🚀 Deploy
-
-Este projeto está configurado para deploy automático via [Vercel](https://vercel.com). Basta conectar o repositório GitHub à sua conta Vercel.
+[🔗 renanmrbraga.github.io](https://renanmrbraga.github.io/)
 
 ## ⚙️ Como rodar localmente
 
@@ -58,4 +54,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull r
 
 ---
 
-© 2024 Renan Braga. Todos os direitos reservados.
+© 2025 Renan Braga. Todos os direitos reservados.
