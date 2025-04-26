@@ -3,7 +3,7 @@
 
 ## 📌 Sobre o projeto
 
-Este é o meu portfólio profissional, destacando suas competências e projetos desenvolvidos em automação, análise de dados e inteligência artificial. O portfólio conta com suporte multilíngue (Português e Inglês), tema dinâmico (dark/light), otimizações para SEO e integração com Formspree para o formulário de contato.
+Este é o meu portfólio profissional, destacando minhas competências e projetos desenvolvidos em automação, análise de dados e inteligência artificial. O portfólio conta com suporte multilíngue (Português e Inglês), tema dinâmico (dark/light), otimizações para SEO e integração com Formspree para o formulário de contato.
 
 ## 💡 Tecnologias usadas
 
