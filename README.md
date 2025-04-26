@@ -44,10 +44,6 @@ Execute localmente em ambiente de desenvolvimento:
 npm run dev
 ```
 
-## 🔐 Considerações de segurança
-
-- O projeto não utiliza variáveis de ambiente sensíveis no lado do cliente.
-
 ## 🛠️ Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
