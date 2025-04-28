@@ -107,7 +107,7 @@ const translations = {
     "howitworks.step2.title": "O sistema detecta a cidade e tema",
     "howitworks.step2.desc": "Identificação inteligente de entidades e contexto",
     "howitworks.step3.title": "Acessa dados confiáveis",
-    "howitworks.step3.desc": "IBGE, INEP, FNDE e outras fontes governamentais",
+    "howitworks.step3.desc": "Bancos de dados profissionais e outras fontes confiáveis",
     "howitworks.step4.title": "Usa uma LLM para interpretar",
     "howitworks.step4.desc": "Processamento e contextualização dos dados relevantes",
     "howitworks.step5.title": "Você recebe uma resposta clara",
@@ -126,8 +126,8 @@ const translations = {
     "projects.title": "Meus Projetos",
     "projects.viewDetails": "Ver detalhes",
     "projects.PortfolioWeb.desc": "Este site de portfólio desenvolvido com React, Vite e Tailwind CSS.",
-    "projects.ProfessionalAnalystGrid.desc": "Um assistente de IA (LLM) que analisa dados confiáveis de banco de dados, relacionais e vetoriais.",
-    "projects.FootballScience.desc": "Análise de dados focada em entender a relação entre investimentos financeiros, dívidas e sucesso esportivo nos clubes da Série A.",
+    "projects.ProfessionalAnalystGrid.desc": "Assistente inteligente que conecta APIs/Sites com LLMs para entregar análises rápidas, confiáveis e interpretadas.",
+    "projects.FootballScience.desc": "Ciência de dados focada em entender a relação entre investimentos financeiros, dívidas e sucesso esportivo nos clubes da Série A.",
     // Project pages common
     "projects.back": "Voltar para a Home",
     "projects.problem": "O Problema",
@@ -266,8 +266,8 @@ const translations = {
     // ProjectsGrid
     "projects.title": "My Projects",
     "projects.viewDetails": "View details",
-    "projects.ProfessionalAnalystGrid.desc": "An AI (LLM) assistant that interprets data from relational and vector database.",
     "projects.PortfolioWeb.desc": "This portfolio website developed with React, Vite, and Tailwind CSS.",
+    "projects.ProfessionalAnalystGrid.desc": "Smart assistant that connects APIs/Websites with LLMs to deliver fast, reliable, and interpreted analyses.",
     "projects.FootballScience.desc": "Data science focused on understanding the relationship between financial investments, debt, and sports success in Série A football clubs.",
     // Project pages common
     "projects.back": "Back to Home",

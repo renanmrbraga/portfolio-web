@@ -75,11 +75,11 @@ const ProfessionalAnalystPage = () => {
           <div>
             <h2 className="text-2xl font-bold mb-4">{t("projects.technologies")}</h2>
             <ul className="space-y-2">
-              <TechItem>Python + LangChain</TechItem>
-              <TechItem>Groq LLM (Gemma 2B/9B)</TechItem>
+              <TechItem>Python + FastAPI</TechItem>
+              <TechItem>LangChain + Groq LLM (Gemma 2B/9B)</TechItem>
               <TechItem>PostgreSQL + Scraping + APIs</TechItem>
-              <TechItem>Pinecone + Cohere Embeddings</TechItem>
-              <TechItem>Frontend React</TechItem>
+              <TechItem>Pinecone + Hugging Face Embeddings</TechItem>
+              <TechItem>Docker</TechItem>
             </ul>
           </div>
         </div>

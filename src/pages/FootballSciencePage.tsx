@@ -87,6 +87,7 @@ const FootballSciencePage = () => {
             <h2 className="text-2xl font-bold mb-4">{t("projects.technologies")}</h2>
             <ul className="space-y-2">
               <TechItem>Python</TechItem>
+              <TechItem>Beautiful Soup / Selenium</TechItem>
               <TechItem>Pandas / Streamlit / ECharts </TechItem>
               <TechItem>PostgreSQL</TechItem>
             </ul>
