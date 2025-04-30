@@ -32,7 +32,7 @@ const ProjectsGrid = () => {
       title: "Professional Analyst",
       description: t("projects.ProfessionalAnalystGrid.desc"),
       tags: ["Python", "FastAPI", "LangChain", "Groq", "PostgresSQL", "MongoDB", "Pinecone", "Hugging Face", "Docker"],
-      githubUrl: "https://github.com/renanmrbraga/professional-analyst",
+      githubUrl: "https://github.com/renanmrbraga/chatbot-llm",
       detailsPath: "/projects/professional-analyst",
     },
     {
