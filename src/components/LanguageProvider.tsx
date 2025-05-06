@@ -126,7 +126,7 @@ const translations = {
     "projects.title": "Meus Projetos",
     "projects.viewDetails": "Ver detalhes",
     "projects.PortfolioWeb.desc": "Este site de portfólio desenvolvido com React, Vite e Tailwind CSS.",
-    "projects.ProfessionalAnalystGrid.desc": "Assistente inteligente que conecta APIs/Sites com LLMs para entregar análises rápidas, confiáveis e interpretadas.",
+    "projects.ProfessionalAnalystGrid.desc": "Assistente IA que integra APIs, sites e diferentes tipos de bancos de dados (SQL, NoSQL e vetoriais) com LLMs, gerando análises rápidas, confiáveis e fáceis de entender.",
     "projects.FootballScience.desc": "Ciência de dados focada em entender a relação entre investimentos financeiros, dívidas e sucesso esportivo nos clubes da Série A.",
     // Project pages common
     "projects.back": "Voltar para a Home",
@@ -267,7 +267,7 @@ const translations = {
     "projects.title": "My Projects",
     "projects.viewDetails": "View details",
     "projects.PortfolioWeb.desc": "This portfolio website developed with React, Vite, and Tailwind CSS.",
-    "projects.ProfessionalAnalystGrid.desc": "Smart assistant that connects APIs/Websites with LLMs to deliver fast, reliable, and interpreted analyses.",
+    "projects.ProfessionalAnalystGrid.desc": "AI assistant that integrates APIs, websites, and different types of databases (SQL, NoSQL, and vector) with LLMs — generating fast, reliable, and easy-to-understand insights.",
     "projects.FootballScience.desc": "Data science focused on understanding the relationship between financial investments, debt, and sports success in Série A football clubs.",
     // Project pages common
     "projects.back": "Back to Home",
