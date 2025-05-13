@@ -1,3 +1,4 @@
+// src/App.tsx
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
@@ -8,12 +9,12 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 import { LanguageProvider } from "@/components/LanguageProvider";
 
 import Index from "./pages/Index";
-import NotFound from "./pages/NotFound";
-import ProfessionalAnalystPage from "./pages/ProfessionalAnalystPage";
-import FootballSciencePage from "./pages/FootballSciencePage";
 import Contact from "./pages/Contact";
+import NotFound from "./pages/NotFound";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfUse from "./pages/TermsOfUse";
+import ProfessionalAnalystPage from "./pages/ProfessionalAnalystPage";
+import FootballSciencePage from "./pages/FootballSciencePage";
 
 const queryClient = new QueryClient();
 

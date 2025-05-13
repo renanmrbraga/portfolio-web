@@ -17,13 +17,16 @@ const Contact = () => {
       <Navbar />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24">
         <div className="mb-8">
-          <Link
-            to="/"
-            className="flex items-center text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+          <Button
+            variant="ghost"
+            className="p-0 text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400"
+            asChild
           >
-            <ArrowLeft className="mr-2 h-4 w-4" />
-            {t("contact.backHome")}
-          </Link>
+            <a href="/">
+              <ArrowLeft className="mr-2 h-4 w-4" />
+              {t("contact.backHome")}
+            </a>
+          </Button>
         </div>
 
         <div className="mb-16">
