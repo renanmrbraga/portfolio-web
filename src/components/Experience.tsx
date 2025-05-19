@@ -23,7 +23,7 @@ const Experience = () => {
             <p className="text-base font-bold">{t("experience.aapvr.role1")}</p>
 
             <ul className="list-disc list-inside mt-2 text-base leading-relaxed">
-              {Array.from({ length: 11 }, (_, i) => (
+              {Array.from({ length: 10 }, (_, i) => (
                 <li key={i}>{t(`experience.aapvr.desc1.${i + 1}`)}</li>
               ))}
             </ul>
