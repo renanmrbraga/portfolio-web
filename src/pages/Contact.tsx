@@ -52,15 +52,6 @@ const Contact = () => {
                 </a>
               </ContactItem>
 
-              <ContactItem icon={<Phone className="h-5 w-5 text-blue-500" />} title={t("contact.phone")}>
-                <a
-                  href="tel:+5524999458695"
-                  className="hover:text-blue-500 transition-colors"
-                >
-                  +55 (24) 99945-8695
-                </a>
-              </ContactItem>
-
               <ContactItem icon={<MapPin className="h-5 w-5 text-blue-500" />} title={t("contact.location")}>
                 {t("contact.location.adress")}
               </ContactItem>
