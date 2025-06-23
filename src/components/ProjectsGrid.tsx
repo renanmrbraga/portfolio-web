@@ -22,15 +22,15 @@ const ProjectsGrid = () => {
   const projects: Project[] = [
     {
       id: "portfolio-website",
-      title: "Portfolio Web",
+      title: t("projects.PortfolioWeb.title"),
       description: t("projects.PortfolioWeb.desc"),
       tags: ["React", "Vite", "Tailwind CSS"],
       githubUrl: "https://github.com/renanmrbraga/portfolio-web",
     },
     {
       id: "professional-analyst",
-      title: "Professional Analyst",
-      description: t("projects.ProfessionalAnalystGrid.desc"),
+      title: t("projects.Chatbot.title"),
+      description: t("projects.Chatbot.desc"),
       tags: [
         "Python",
         "FastAPI",
@@ -47,7 +47,7 @@ const ProjectsGrid = () => {
     },
     {
       id: "football-science",
-      title: "Football Science",
+      title: t("projects.FootballScience.title"),
       description: t("projects.FootballScience.desc"),
       tags: ["Python", "Beautiful Soup", "Selenium", "Streamlit", "ECharts"],
       demoUrl: "https://football-science.onrender.com/",

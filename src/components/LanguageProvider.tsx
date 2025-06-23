@@ -17,12 +17,18 @@ type LanguageProviderState = {
 
 const translations = {
   pt: {
+    // SEO
+    "seo.title": "Renan Braga • Portfólio",
+    "seo.description": "Portfólio profissional de Renan Braga. Especialista em dados, automação e inteligência artificial aplicada.",
+    "seo.ogTitle": "Renan Braga • Portfólio",
+    "seo.ogDescription": "Portfólio profissional de Renan Braga. Especialista em dados, automação e inteligência artificial aplicada.",
+    "seo.locale": "pt_BR",
     // Navbar
     "contact": "Contato",
     "github": "GitHub",
     // Hero
-    "hero.title": "Especialista em Dados",
-    "hero.subtitle": "Crio soluções que transformam dados brutos em decisões.",
+    "hero.title": "Especialista em Dados com foco em integração, automação e IA",
+    "hero.subtitle": "Transformo dados em decisões com ETL, dashboards, LLMs e modelos preditivos.",
     // Footer
     "footer.rights": "Todos os direitos reservados",
     "footer.privacy": "Política de Privacidade",
@@ -125,9 +131,15 @@ const translations = {
     // ProjectsGrid
     "projects.title": "Meus Projetos",
     "projects.viewDetails": "Detalhes",
-    "projects.PortfolioWeb.desc": "Este site de portfólio desenvolvido com React, Vite e Tailwind CSS.",
-    "projects.ProfessionalAnalystGrid.desc": "Assistente IA que conecta APIs e bancos de dados a LLMs, gerando análises rápidas e confiáveis.",
-    "projects.FootballScience.desc": "Ciência de dados focada em entender a relação entre investimentos financeiros, dívidas e sucesso esportivo nos clubes da Série A.",
+    // Portfolio
+    "projects.PortfolioWeb.title": "Portfólio Profissional",
+    "projects.PortfolioWeb.desc": "Design, desenvolvimento e conteúdo deste portfólio pessoal. Implementado com React, Vite, Tailwind, i18n, SEO dinâmico e deploy otimizado via Vercel.",
+    // Chatbot
+    "projects.Chatbot.title": "Analista Profissional",
+    "projects.Chatbot.desc": "Chatbot IA com arquitetura RAG, conecta APIs e bancos de dados a LLMs. Responde perguntas com base em dados reais usando LangChain, PostgreSQL, MongoDB e scraping.",
+    // Football Science
+    "projects.FootballScience.title": "Football Science",
+    "projects.FootballScience.desc": "Ciência de dados aplicada ao futebol. Analisa dados financeiros e esportivos dos clubes da Série A com scraping, dashboards e Machine Learning.",
     // Experience Section
     "experience.title": "Experiência Profissional",
     "experience.aapvr.title": "Grupo AAPVR",
@@ -203,12 +215,18 @@ const translations = {
     "projects.FootballScience.how3": "Dashboards dinâmicos com Streamlit e ECharts",
   },
   en: {
+    // SEO
+    "seo.title": "Renan Braga • Portfolio",
+    "seo.description": "Professional portfolio of Renan Braga. Specialist in data, automation and applied AI.",
+    "seo.ogTitle": "Renan Braga • Portfolio",
+    "seo.ogDescription": "Professional portfolio of Renan Braga. Specialist in data, automation and applied AI.",
+    "seo.locale": "en_US",
     // Navbar
     "contact": "Contact",
     "github": "GitHub",
     // Hero
-    "hero.title": "Data Specialist",
-    "hero.subtitle": "I build solutions that turn raw data into decisions.",
+    "hero.title": "Data Specialist focused on integration, automation, and AI",
+    "hero.subtitle": "I turn data into decisions using ETL, dashboards, LLMs, and predictive models.",
     // Footer
     "footer.rights": "All rights reserved",
     "footer.privacy": "Privacy Policy",
@@ -310,10 +328,16 @@ const translations = {
     "trynow.tip": "Works best with specific questions, such as: \"How many public schools are there in Montes Claros?\"",
     // ProjectsGrid
     "projects.title": "My Projects",
-    "projects.viewDetails": "Details",
-    "projects.PortfolioWeb.desc": "This portfolio website developed with React, Vite, and Tailwind CSS.",
-    "projects.ProfessionalAnalystGrid.desc": "AI assistant that connects APIs and databases to LLMs, generating fast and reliable insights",
-    "projects.FootballScience.desc": "Data science focused on understanding the relationship between financial investments, debt, and sports success in Série A football clubs.",
+    "projects.viewDetails": "Detalhes",
+    // Portfolio
+    "projects.PortfolioWeb.title": "Professional Portfolio",
+    "projects.PortfolioWeb.desc": "Design, development, and content of this personal portfolio. Built with React, Vite, Tailwind, i18n, dynamic SEO, and optimized Vercel deployment.",
+    // Chatbot
+    "projects.Chatbot.title": "Professional Analyst",
+    "projects.Chatbot.desc": "AI chatbot with RAG architecture, connecting APIs and databases to LLMs. Answers questions based on real data using LangChain, PostgreSQL, MongoDB, and scraping.",
+    // Football Science
+    "projects.FootballScience.title": "Football Science",
+    "projects.FootballScience.desc": "Data science applied to football. Analyzes financial and performance data of Brazilian top league clubs using scraping, dashboards, and Machine Learning.",
     // Experience Section
     "experience.title": "Professional Experience",
     "experience.aapvr.title": "Grupo AAPVR",
