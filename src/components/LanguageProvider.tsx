@@ -19,15 +19,15 @@ const translations = {
   pt: {
     // SEO
     "seo.title": "Renan Martins Braga • Portfólio",
-    "seo.description": "Portfólio profissional de Renan Martins Braga. Especialista em dados, automação e inteligência artificial aplicada.",
+    "seo.description": "Portfólio profissional de Renan Martins Braga - Cientista de Dados.",
     "seo.ogTitle": "Renan Martins Braga • Portfólio",
-    "seo.ogDescription": "Portfólio profissional de Renan Martins Braga. Especialista em dados, automação e inteligência artificial aplicada.",
+    "seo.ogDescription": "Portfólio profissional de Renan Martins Braga - Cientista de Dados.",
     "seo.locale": "pt_BR",
     // Navbar
     "contact": "Contato",
     "github": "GitHub",
     // Hero
-    "hero.title": "Especialista em Dados com foco em integração, automação e IA",
+    "hero.title": "Cientista de Dados com foco em integração, automação e IA",
     "hero.subtitle": "Transformo dados em decisões com ETL, dashboards, LLMs e modelos preditivos.",
     // Footer
     "footer.rights": "Todos os direitos reservados",
@@ -182,15 +182,15 @@ const translations = {
   en: {
     // SEO
     "seo.title": "Renan Martins Braga • Portfolio",
-    "seo.description": "Professional portfolio of Renan Martins Braga. Specialist in data, automation and applied AI.",
+    "seo.description": "Professional portfolio of Renan Martins Braga - Data Scientist.",
     "seo.ogTitle": "Renan Martins Braga • Portfolio",
-    "seo.ogDescription": "Professional portfolio of Renan Martins Braga. Specialist in data, automation and applied AI.",
+    "seo.ogDescription": "PProfessional portfolio of Renan Martins Braga - Data Scientist.",
     "seo.locale": "en_US",
     // Navbar
     "contact": "Contact",
     "github": "GitHub",
     // Hero
-    "hero.title": "Data Specialist focused on integration, automation, and AI",
+    "hero.title": "Data Scientist focused on integration, automation, and AI",
     "hero.subtitle": "I turn data into decisions using ETL, dashboards, LLMs, and predictive models.",
     // Footer
     "footer.rights": "All rights reserved",
