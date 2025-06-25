@@ -27,8 +27,7 @@ const translations = {
     "contact": "Contato",
     "github": "GitHub",
     // Hero
-    "hero.title": "Cientista de Dados com foco em integração, automação e IA",
-    "hero.subtitle": "Transformo dados em decisões com ETL, dashboards, LLMs e modelos preditivos.",
+    "hero.title": "Cientista de Dados",
     // Footer
     "footer.rights": "Todos os direitos reservados",
     "footer.privacy": "Política de Privacidade",
@@ -190,8 +189,7 @@ const translations = {
     "contact": "Contact",
     "github": "GitHub",
     // Hero
-    "hero.title": "Data Scientist focused on integration, automation, and AI",
-    "hero.subtitle": "I turn data into decisions using ETL, dashboards, LLMs, and predictive models.",
+    "hero.title": "Data Scientist",
     // Footer
     "footer.rights": "All rights reserved",
     "footer.privacy": "Privacy Policy",
