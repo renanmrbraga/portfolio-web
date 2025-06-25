@@ -1,4 +1,3 @@
-
 # Portfolio Web
 
 ## 📌 Sobre o projeto
@@ -50,4 +49,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull r
 
 ---
 
-© 2025 Renan Braga. Todos os direitos reservados.
+© 2025 Renan Martins Braga. Todos os direitos reservados.

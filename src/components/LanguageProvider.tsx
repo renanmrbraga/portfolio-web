@@ -18,10 +18,10 @@ type LanguageProviderState = {
 const translations = {
   pt: {
     // SEO
-    "seo.title": "Renan Braga • Portfólio",
-    "seo.description": "Portfólio profissional de Renan Braga. Especialista em dados, automação e inteligência artificial aplicada.",
-    "seo.ogTitle": "Renan Braga • Portfólio",
-    "seo.ogDescription": "Portfólio profissional de Renan Braga. Especialista em dados, automação e inteligência artificial aplicada.",
+    "seo.title": "Renan Martins Braga • Portfólio",
+    "seo.description": "Portfólio profissional de Renan Martins Braga. Especialista em dados, automação e inteligência artificial aplicada.",
+    "seo.ogTitle": "Renan Martins Braga • Portfólio",
+    "seo.ogDescription": "Portfólio profissional de Renan Martins Braga. Especialista em dados, automação e inteligência artificial aplicada.",
     "seo.locale": "pt_BR",
     // Navbar
     "contact": "Contato",
@@ -92,12 +92,12 @@ const translations = {
     "terms.section1.item2": "Não tentar acessar áreas restritas do site sem autorização",
     "terms.section1.item3": "Não usar o site para fins ilegais ou não autorizados",
     "terms.section2": "2. Propriedade Intelectual",
-    "terms.section2.desc1": "Todo o conteúdo presente neste site, incluindo, mas não limitado a, textos, gráficos, logotipos, ícones, imagens, áudios, vídeos e software, é de propriedade exclusiva de Renan Braga ou de seus fornecedores de conteúdo e está protegido por leis de direitos autorais.",
+    "terms.section2.desc1": "Todo o conteúdo presente neste site, incluindo, mas não limitado a, textos, gráficos, logotipos, ícones, imagens, áudios, vídeos e software, é de propriedade exclusiva de Renan Martins Braga ou de seus fornecedores de conteúdo e está protegido por leis de direitos autorais.",
     "terms.section2.desc2": "Você não pode modificar, reproduzir, distribuir, transmitir, exibir, publicar, licenciar, criar trabalhos derivados, transferir ou vender qualquer material deste site sem autorização prévia por escrito.",
     "terms.section3": "3. Limitação de Responsabilidade",
-    "terms.section3.desc": "O conteúdo deste site é fornecido \"como está\", sem qualquer garantia, expressa ou implícita. Em nenhuma circunstância, Renan Braga será responsável por quaisquer danos diretos, indiretos, incidentais, especiais ou consequenciais decorrentes do uso ou da impossibilidade de uso deste site.",
+    "terms.section3.desc": "O conteúdo deste site é fornecido \"como está\", sem qualquer garantia, expressa ou implícita. Em nenhuma circunstância, Renan Martins Braga será responsável por quaisquer danos diretos, indiretos, incidentais, especiais ou consequenciais decorrentes do uso ou da impossibilidade de uso deste site.",
     "terms.section4": "4. Links para Sites de Terceiros",
-    "terms.section4.desc": "Este site pode conter links para sites de terceiros. Esses links são fornecidos apenas para conveniência do usuário. Renan Braga não possui controle sobre o conteúdo desses sites e não se responsabiliza por qualquer conteúdo, política de privacidade ou práticas de sites de terceiros.",
+    "terms.section4.desc": "Este site pode conter links para sites de terceiros. Esses links são fornecidos apenas para conveniência do usuário. Renan Martins Braga não possui controle sobre o conteúdo desses sites e não se responsabiliza por qualquer conteúdo, política de privacidade ou práticas de sites de terceiros.",
     "terms.section5": "5. Modificações dos Termos",
     "terms.section5.desc": "Reservo-me o direito de modificar estes Termos de Uso a qualquer momento. As alterações entrarão em vigor assim que forem publicadas no site. O uso continuado do site após tais alterações constitui sua aceitação dos novos Termos de Uso.",
     "terms.section6": "6. Contato",
@@ -120,7 +120,7 @@ const translations = {
     "howitworks.step5.desc": "Com contexto, fontes e possíveis insights",
     // About component
     "about.title": "Quem criou isso?",
-    "about.name": "Renan Braga",
+    "about.name": "Renan Martins Braga",
     "about.desc": "Sou um resolvedor de problemas. Uso dados, IA e automação para criar soluções que poupam tempo, reduzem custos e ampliam impacto. Acredito que tecnologia boa é aquela que funciona, escala e melhora a vida real.",
     "about.tagline": "Tecnologia aplicada com propósito, velocidade e impacto.",
     // TryNow component
@@ -181,10 +181,10 @@ const translations = {
   },
   en: {
     // SEO
-    "seo.title": "Renan Braga • Portfolio",
-    "seo.description": "Professional portfolio of Renan Braga. Specialist in data, automation and applied AI.",
-    "seo.ogTitle": "Renan Braga • Portfolio",
-    "seo.ogDescription": "Professional portfolio of Renan Braga. Specialist in data, automation and applied AI.",
+    "seo.title": "Renan Martins Braga • Portfolio",
+    "seo.description": "Professional portfolio of Renan Martins Braga. Specialist in data, automation and applied AI.",
+    "seo.ogTitle": "Renan Martins Braga • Portfolio",
+    "seo.ogDescription": "Professional portfolio of Renan Martins Braga. Specialist in data, automation and applied AI.",
     "seo.locale": "en_US",
     // Navbar
     "contact": "Contact",
@@ -255,12 +255,12 @@ const translations = {
     "terms.section1.item2": "Not attempt to access restricted areas of the site without authorization",
     "terms.section1.item3": "Not use the site for illegal or unauthorized purposes",
     "terms.section2": "2. Intellectual Property",
-    "terms.section2.desc1": "All content on this site, including but not limited to text, graphics, logos, icons, images, audio, video, and software, is the exclusive property of Renan Braga or its content suppliers and is protected by copyright laws.",
+    "terms.section2.desc1": "All content on this site, including but not limited to text, graphics, logos, icons, images, audio, video, and software, is the exclusive property of Renan Martins Braga or its content suppliers and is protected by copyright laws.",
     "terms.section2.desc2": "You may not modify, reproduce, distribute, transmit, display, publish, license, create derivative works, transfer, or sell any material from this site without prior written authorization.",
     "terms.section3": "3. Limitation of Liability",
-    "terms.section3.desc": "The content of this site is provided \"as is\" without any warranty, express or implied. Under no circumstances will Renan Braga be liable for any direct, indirect, incidental, special, or consequential damages arising from the use or inability to use this site.",
+    "terms.section3.desc": "The content of this site is provided \"as is\" without any warranty, express or implied. Under no circumstances will Renan Martins Braga be liable for any direct, indirect, incidental, special, or consequential damages arising from the use or inability to use this site.",
     "terms.section4": "4. Links to Third-Party Sites",
-    "terms.section4.desc": "This site may contain links to third-party websites. These links are provided solely for the convenience of the user. Renan Braga has no control over the content of these sites and is not responsible for any content, privacy policy, or practices of third-party sites.",
+    "terms.section4.desc": "This site may contain links to third-party websites. These links are provided solely for the convenience of the user. Renan Martins Braga has no control over the content of these sites and is not responsible for any content, privacy policy, or practices of third-party sites.",
     "terms.section5": "5. Modifications to Terms",
     "terms.section5.desc": "I reserve the right to modify these Terms of Use at any time. The changes will take effect as soon as they are published on the site. Continued use of the site after such changes constitutes your acceptance of the new Terms of Use.",
     "terms.section6": "6. Contact",
@@ -283,7 +283,7 @@ const translations = {
     "howitworks.step5.desc": "With context, sources, and possible insights",
     // About component
     "about.title": "Who created this?",
-    "about.name": "Renan Braga",
+    "about.name": "Renan Martins Braga",
     "about.desc": "I'm a problem solver. I use data, AI, and automation to build solutions that save time, cut costs, and increase impact. I believe good technology is the kind that works, scales, and improves real life.",
     "about.tagline": "Technology applied with purpose, speed, and impact.",
     // TryNow component
