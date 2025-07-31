@@ -12,7 +12,7 @@ type LanguageProviderProps = {
 type LanguageProviderState = {
   language: Language;
   setLanguage: (language: Language) => void;
-  t: (key: string) => string;
+  t: (key: string) => string | string[];
 };
 
 const translations = {
@@ -140,34 +140,18 @@ const translations = {
     "projects.FootballScience.title": "Football Science",
     "projects.FootballScience.desc": "Ciência de dados aplicada ao futebol. Analisa dados financeiros e esportivos dos clubes da Série A com scraping, dashboards e Machine Learning.",
     // Skills
-    "skills.title": "Competências Técnicas",
-    "skills.section.etl": "Manipulação de Dados & ETL",
-    "skills.list.etl": [
-      "Python (Pandas, NumPy, Polars, Dask, Vaex, PyArrow)",
-      "SQL (Joins, CTEs), APIs, Web Scraping",
-      "Banco de Dados: PostgreSQL, MongoDB, Pinecone"
-    ],
-    "skills.section.viz": "Visualização & BI",
-    "skills.list.viz": [
-      "Power BI (DAX), Excel Avançado",
-      "Python (Plotly, Streamlit, Matplotlib, Seaborn)"
-    ],
-    "skills.section.analysis": "Modelagem & Machine Learning (Python)",
-    "skills.list.analysis": [
-      "Scikit-learn, XGBoost, LightGBM, CatBoost",
-      "Tuning com Optuna, GridSearchCV",
-      "Métricas: AUC, F1, Precision, Recall, Accuracy, Log Loss, R², RMSE, MAE, MAPE"
-    ],
-    "skills.section.ia": "IA Aplicada com LLMs & RAG",
-    "skills.list.ia": [
-      "LangChain, HuggingFace, Transformers, SentenceTransformers, Cohere",
-      "Construção de pipelines RAG com integração multimodal"
-    ],
-    "skills.section.dev": "Deploy & Arquitetura",
-    "skills.list.dev": [
-      "FastAPI, REST APIs, Docker, CI/CD, Git",
-      "Versionamento, documentação e deploy de pipelines"
-    ],
+    "skills.list.python": "Python (Pandas, NumPy, Polars, Dask, Vaex, PyArrow)",
+    "skills.list.sql": "SQL (Joins, CTEs), APIs, Web Scraping",
+    "skills.list.db": "Banco de Dados: PostgreSQL, MongoDB, Pinecone",
+    "skills.list.bi": "Power BI (DAX), Excel Avançado",
+    "skills.list.vizpython": "Python (Plotly, Streamlit, Matplotlib, Seaborn)",
+    "skills.list.ml": "Scikit-learn, XGBoost, LightGBM, CatBoost",
+    "skills.list.tuning": "Tuning com Optuna, GridSearchCV",
+    "skills.list.metrics": "Métricas: AUC, F1, Precision, Recall, Accuracy, Log Loss, R², RMSE, MAE, MAPE",
+    "skills.list.llms": "LangChain, HuggingFace, Transformers, SentenceTransformers, Cohere",
+    "skills.list.rag": "Construção de pipelines RAG com integração multimodal",
+    "skills.list.arch": "FastAPI, REST APIs, Docker, CI/CD, Git",
+    "skills.list.deployment": "Versionamento, documentação e deploy de pipelines",
     // Project pages common
     "projects.back": "Voltar para a Home",
     "projects.problem": "O Problema",
@@ -321,34 +305,18 @@ const translations = {
     "projects.FootballScience.title": "Football Science",
     "projects.FootballScience.desc": "Data science applied to football. Analyzes financial and performance data of Brazilian top league clubs using scraping, dashboards, and Machine Learning.",
     // Skills
-    "skills.title": "Technical Skills",
-    "skills.section.etl": "Data Manipulation & ETL",
-    "skills.list.etl": [
-      "Python (Pandas, NumPy, Polars, Dask, Vaex, PyArrow)",
-      "SQL (Joins, CTEs), APIs, Web Scraping",
-      "Databases: PostgreSQL, MongoDB, Pinecone"
-    ],
-    "skills.section.viz": "Visualization & BI",
-    "skills.list.viz": [
-      "Power BI (DAX), Advanced Excel",
-      "Python (Plotly, Streamlit, Matplotlib, Seaborn)"
-    ],
-    "skills.section.analysis": "Modeling & Machine Learning (Python)",
-    "skills.list.analysis": [
-      "Scikit-learn, XGBoost, LightGBM, CatBoost",
-      "Tuning with Optuna, GridSearchCV",
-      "Metrics: AUC, F1, Precision, Recall, Accuracy, Log Loss, R², RMSE, MAE, MAPE"
-    ],
-    "skills.section.ia": "Applied AI with LLMs & RAG",
-    "skills.list.ia": [
-      "LangChain, HuggingFace, Transformers, SentenceTransformers, Cohere",
-      "RAG pipelines with multimodal integration"
-    ],
-    "skills.section.dev": "Deployment & Architecture",
-    "skills.list.dev": [
-      "FastAPI, REST APIs, Docker, CI/CD, Git",
-      "Versioning, documentation, and pipeline deployment"
-    ],
+    "skills.list.python": "Python (Pandas, NumPy, Polars, Dask, Vaex, PyArrow)",
+    "skills.list.sql": "SQL (Joins, CTEs), APIs, Web Scraping",
+    "skills.list.db": "Databases: PostgreSQL, MongoDB, Pinecone",
+    "skills.list.bi": "Power BI (DAX), Advanced Excel",
+    "skills.list.vizpython": "Python (Plotly, Streamlit, Matplotlib, Seaborn)",
+    "skills.list.ml": "Scikit-learn, XGBoost, LightGBM, CatBoost",
+    "skills.list.tuning": "Tuning with Optuna, GridSearchCV",
+    "skills.list.metrics": "Metrics: AUC, F1, Precision, Recall, Accuracy, Log Loss, R², RMSE, MAE, MAPE",
+    "skills.list.llms": "LangChain, HuggingFace, Transformers, SentenceTransformers, Cohere",
+    "skills.list.rag": "RAG pipelines with multimodal integration",
+    "skills.list.arch": "FastAPI, REST APIs, Docker, CI/CD, Git",
+    "skills.list.deployment": "Versioning, documentation, and pipeline deployment",
     // Project pages common
     "projects.back": "Back to Home",
     "projects.problem": "The Problem",
@@ -410,7 +378,7 @@ export function LanguageProvider({
     document.documentElement.setAttribute('lang', language);
   }, [language, storageKey]);
 
-  const t = (key: string): string => {
+  const t = (key: string): string | string[] => {
     const currentTranslations = translations[language];
     return currentTranslations[key] || key;
   };
