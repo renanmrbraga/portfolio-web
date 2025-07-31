@@ -314,7 +314,7 @@ const translations = {
     "skills.section.ia": "Applied AI with LLMs & RAG",
     "skills.list.ia": "LangChain, HuggingFace, Transformers, SentenceTransformers, Cohere\nRAG pipelines with multimodal integration",
     "skills.section.dev": "Deployment & Architecture",
-    "skills.list.dev": "FastAPI, REST APIs, Docker, CI/CD, Git\nVersioning, documentation, and pipeline deployment"
+    "skills.list.dev": "FastAPI, REST APIs, Docker, CI/CD, Git\nVersioning, documentation, and pipeline deployment",
     // Project pages common
     "projects.back": "Back to Home",
     "projects.problem": "The Problem",
