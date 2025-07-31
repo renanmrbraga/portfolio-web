@@ -9,9 +9,10 @@ const Skills = () => {
       <h2 className="text-2xl font-bold">{t("skills.title")}</h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 text-base leading-relaxed">
+
         <div>
-          <h3 className="text-lg font-semibold mb-1">{t("skills.section.analysis")}</h3>
-          <p>{t("skills.list.analysis")}</p>
+          <h3 className="text-lg font-semibold mb-1">{t("skills.section.etl")}</h3>
+          <p>{t("skills.list.etl")}</p>
         </div>
 
         <div>
@@ -20,14 +21,20 @@ const Skills = () => {
         </div>
 
         <div>
-          <h3 className="text-lg font-semibold mb-1">{t("skills.section.eng")}</h3>
-          <p>{t("skills.list.eng")}</p>
+          <h3 className="text-lg font-semibold mb-1">{t("skills.section.analysis")}</h3>
+          <p>{t("skills.list.analysis")}</p>
+        </div>
+
+        <div>
+          <h3 className="text-lg font-semibold mb-1">{t("skills.section.ia")}</h3>
+          <p>{t("skills.list.ia")}</p>
         </div>
 
         <div>
           <h3 className="text-lg font-semibold mb-1">{t("skills.section.dev")}</h3>
           <p>{t("skills.list.dev")}</p>
         </div>
+
       </div>
     </section>
   );
