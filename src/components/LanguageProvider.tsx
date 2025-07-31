@@ -19,15 +19,15 @@ const translations = {
   pt: {
     // SEO
     "seo.title": "Renan Martins Braga • Portfólio",
-    "seo.description": "Portfólio profissional de Renan Martins Braga - Cientista de Dados.",
+    "seo.description": "Portfólio profissional de Renan Martins Braga - Analista de Dados.",
     "seo.ogTitle": "Renan Martins Braga • Portfólio",
-    "seo.ogDescription": "Portfólio profissional de Renan Martins Braga - Cientista de Dados.",
+    "seo.ogDescription": "Portfólio profissional de Renan Martins Braga - Analista de Dados.",
     "seo.locale": "pt_BR",
     // Navbar
     "contact": "Contato",
     "github": "GitHub",
     // Hero
-    "hero.title": "Cientista de Dados",
+    "hero.title": "Analista de Dados",
     // Footer
     "footer.rights": "Todos os direitos reservados",
     "footer.privacy": "Política de Privacidade",
@@ -181,15 +181,15 @@ const translations = {
   en: {
     // SEO
     "seo.title": "Renan Martins Braga • Portfolio",
-    "seo.description": "Professional portfolio of Renan Martins Braga - Data Scientist.",
+    "seo.description": "Professional portfolio of Renan Martins Braga - Data Analyst.",
     "seo.ogTitle": "Renan Martins Braga • Portfolio",
-    "seo.ogDescription": "PProfessional portfolio of Renan Martins Braga - Data Scientist.",
+    "seo.ogDescription": "PProfessional portfolio of Renan Martins Braga - Data Analyst.",
     "seo.locale": "en_US",
     // Navbar
     "contact": "Contact",
     "github": "GitHub",
     // Hero
-    "hero.title": "Data Scientist",
+    "hero.title": "Data Analyst",
     // Footer
     "footer.rights": "All rights reserved",
     "footer.privacy": "Privacy Policy",
