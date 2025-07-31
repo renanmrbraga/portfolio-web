@@ -12,27 +12,47 @@ const Skills = () => {
 
         <div>
           <h3 className="text-lg font-semibold mb-1">{t("skills.section.etl")}</h3>
-          <p>{t("skills.list.etl")}</p>
+          <ul className="list-disc list-inside space-y-1">
+            {t("skills.list.etl").split("\n").map((item, idx) => (
+              <li key={idx}>{item}</li>
+            ))}
+          </ul>
         </div>
 
         <div>
           <h3 className="text-lg font-semibold mb-1">{t("skills.section.viz")}</h3>
-          <p>{t("skills.list.viz")}</p>
+          <ul className="list-disc list-inside space-y-1">
+            {t("skills.list.viz").split("\n").map((item, idx) => (
+              <li key={idx}>{item}</li>
+            ))}
+          </ul>
         </div>
 
         <div>
           <h3 className="text-lg font-semibold mb-1">{t("skills.section.analysis")}</h3>
-          <p>{t("skills.list.analysis")}</p>
+          <ul className="list-disc list-inside space-y-1">
+            {t("skills.list.analysis").split("\n").map((item, idx) => (
+              <li key={idx}>{item}</li>
+            ))}
+          </ul>
         </div>
 
         <div>
           <h3 className="text-lg font-semibold mb-1">{t("skills.section.ia")}</h3>
-          <p>{t("skills.list.ia")}</p>
+          <ul className="list-disc list-inside space-y-1">
+            {t("skills.list.ia").split("\n").map((item, idx) => (
+              <li key={idx}>{item}</li>
+            ))}
+          </ul>
         </div>
 
         <div>
           <h3 className="text-lg font-semibold mb-1">{t("skills.section.dev")}</h3>
-          <p>{t("skills.list.dev")}</p>
+          <ul className="list-disc list-inside space-y-1">
+            {t("skills.list.dev").split("\n").map((item, idx) => (
+              <li key={idx}>{item}</li>
+            ))}
+          </ul>
         </div>
 
       </div>

@@ -142,15 +142,32 @@ const translations = {
     // Skills
     "skills.title": "Competências Técnicas",
     "skills.section.etl": "Manipulação de Dados & ETL",
-    "skills.list.etl": "Python (Pandas, NumPy, Polars, Dask, Vaex, PyArrow)\nSQL (Joins, CTEs), APIs, Web Scraping\nBanco de Dados: PostgreSQL, MongoDB, Pinecone",
+    "skills.list.etl": [
+      "Python (Pandas, NumPy, Polars, Dask, Vaex, PyArrow)",
+      "SQL (Joins, CTEs), APIs, Web Scraping",
+      "Banco de Dados: PostgreSQL, MongoDB, Pinecone"
+    ],
     "skills.section.viz": "Visualização & BI",
-    "skills.list.viz": "Power BI (DAX), Excel Avançado\nPython (Plotly, Streamlit, Matplotlib, Seaborn)",
+    "skills.list.viz": [
+      "Power BI (DAX), Excel Avançado",
+      "Python (Plotly, Streamlit, Matplotlib, Seaborn)"
+    ],
     "skills.section.analysis": "Modelagem & Machine Learning (Python)",
-    "skills.list.analysis": "Scikit-learn, XGBoost, LightGBM, CatBoost\nTuning com Optuna, GridSearchCV\nMétricas: AUC, F1, Precision, Recall, Accuracy, Log Loss, R², RMSE, MAE, MAPE",
+    "skills.list.analysis": [
+      "Scikit-learn, XGBoost, LightGBM, CatBoost",
+      "Tuning com Optuna, GridSearchCV",
+      "Métricas: AUC, F1, Precision, Recall, Accuracy, Log Loss, R², RMSE, MAE, MAPE"
+    ],
     "skills.section.ia": "IA Aplicada com LLMs & RAG",
-    "skills.list.ia": "LangChain, HuggingFace, Transformers, SentenceTransformers, Cohere\nConstrução de pipelines RAG com integração multimodal",
+    "skills.list.ia": [
+      "LangChain, HuggingFace, Transformers, SentenceTransformers, Cohere",
+      "Construção de pipelines RAG com integração multimodal"
+    ],
     "skills.section.dev": "Deploy & Arquitetura",
-    "skills.list.dev": "FastAPI, REST APIs, Docker, CI/CD, Git\nVersionamento, documentação e deploy de pipelines",
+    "skills.list.dev": [
+      "FastAPI, REST APIs, Docker, CI/CD, Git",
+      "Versionamento, documentação e deploy de pipelines"
+    ],
     // Project pages common
     "projects.back": "Voltar para a Home",
     "projects.problem": "O Problema",
@@ -306,15 +323,32 @@ const translations = {
     // Skills
     "skills.title": "Technical Skills",
     "skills.section.etl": "Data Manipulation & ETL",
-    "skills.list.etl": "Python (Pandas, NumPy, Polars, Dask, Vaex, PyArrow)\nSQL (Joins, CTEs), APIs, Web Scraping\nDatabases: PostgreSQL, MongoDB, Pinecone",
+    "skills.list.etl": [
+      "Python (Pandas, NumPy, Polars, Dask, Vaex, PyArrow)",
+      "SQL (Joins, CTEs), APIs, Web Scraping",
+      "Databases: PostgreSQL, MongoDB, Pinecone"
+    ],
     "skills.section.viz": "Visualization & BI",
-    "skills.list.viz": "Power BI (DAX), Advanced Excel\nPython (Plotly, Streamlit, Matplotlib, Seaborn)",
+    "skills.list.viz": [
+      "Power BI (DAX), Advanced Excel",
+      "Python (Plotly, Streamlit, Matplotlib, Seaborn)"
+    ],
     "skills.section.analysis": "Modeling & Machine Learning (Python)",
-    "skills.list.analysis": "Scikit-learn, XGBoost, LightGBM, CatBoost\nTuning with Optuna, GridSearchCV\nMetrics: AUC, F1, Precision, Recall, Accuracy, Log Loss, R², RMSE, MAE, MAPE",
+    "skills.list.analysis": [
+      "Scikit-learn, XGBoost, LightGBM, CatBoost",
+      "Tuning with Optuna, GridSearchCV",
+      "Metrics: AUC, F1, Precision, Recall, Accuracy, Log Loss, R², RMSE, MAE, MAPE"
+    ],
     "skills.section.ia": "Applied AI with LLMs & RAG",
-    "skills.list.ia": "LangChain, HuggingFace, Transformers, SentenceTransformers, Cohere\nRAG pipelines with multimodal integration",
+    "skills.list.ia": [
+      "LangChain, HuggingFace, Transformers, SentenceTransformers, Cohere",
+      "RAG pipelines with multimodal integration"
+    ],
     "skills.section.dev": "Deployment & Architecture",
-    "skills.list.dev": "FastAPI, REST APIs, Docker, CI/CD, Git\nVersioning, documentation, and pipeline deployment",
+    "skills.list.dev": [
+      "FastAPI, REST APIs, Docker, CI/CD, Git",
+      "Versioning, documentation, and pipeline deployment"
+    ],
     // Project pages common
     "projects.back": "Back to Home",
     "projects.problem": "The Problem",
